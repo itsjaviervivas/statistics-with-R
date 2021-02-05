@@ -1,6 +1,5 @@
 #instalar la libreria fdth 
 install.packages("fdth")
-
 #Importando las librerias
 library(ggplot2)
 library(scales)
