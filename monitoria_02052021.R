@@ -1,4 +1,4 @@
-#instalar la libreria fdth
+#instalar la libreria fdth 
 install.packages("fdth")
 
 #Importando las librerias
