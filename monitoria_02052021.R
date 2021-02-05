@@ -9,5 +9,5 @@ library(fdth)
 data("iris")
 View(iris)
 
-#Crear el histograma con la base de datos
+#Crear el histograma con la base de datos :)
 ggplot(iris, aes(x=Sepal.Length)) + geom_histogram()
