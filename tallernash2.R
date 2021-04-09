@@ -83,4 +83,11 @@ ll <- d - Margin_Error
 ul <- d + Margin_Error
 cat((1-alpha)*100,"% CI: (", round(ll, 3), ", ", round(ul, 3), ")")
 
+#Punto 16------
+#Para hallar los valores de z sin necesidad de ver la tabla
+z<-pnorm(-2.5298)
+z
+z<-pnorm(0.01)
+z
+
 
