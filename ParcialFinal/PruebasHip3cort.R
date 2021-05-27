@@ -64,14 +64,13 @@ estzc=numzc/denmzc
 
 ###################
 #Pruebas con respecto a diferencia entre dos proporciones----
+x1=1 #casos de exito
+x2=3
 n1=1 #Tamaño muesrtras
 n2=2
-x1=1 #Medias
-x2=3
-p1=3 #Poblaciones (a probar)
-p2=3
-sd1=1 #desviación
-sd2=4
+p1=x1/p1#Poblaciones (a probar)
+p2=x2/p2
+
 
 #P y Q gorrito
 p=(x1-x2)/(n1-n2)
